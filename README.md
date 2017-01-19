@@ -20,6 +20,7 @@ This is a minimal boilerplate to start writing API services in Node.js with all 
 - [ ] Boilerplate code generation through CLI?
 - [ ] Consider swapping out `babel-preset-env` with explicit plugin list
 - [ ] Post-install download Flowtype definitions for external packages
+- [ ] Write example tests
 
 ## Scripts
 
