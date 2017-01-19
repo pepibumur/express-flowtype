@@ -1,0 +1,51 @@
+{
+  "name": "netguru-node-stack",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {},
+  "author": "Michał Noszczak <michal.noszczak@netguru.pl>",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node src/server.js",
+    "watch": "nodemon src/server.js",
+    "flow": "flow check",
+    "lint": "eslint src/**/*",
+    "lint:fix": "eslint src/**/* --fix",
+    "jest": "jest --coverage",
+    "jest:watch": "jest --watch"
+  },
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-eslint": "^7.1.1",
+    "babel-jest": "^18.0.0",
+    "babel-plugin-transform-flow-strip-types": "^6.21.0",
+    "babel-preset-env": "^1.1.8",
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.16.0",
+    "cookie-parser": "^1.4.3",
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb-base": "latest",
+    "eslint-plugin-flowtype": "^2.30.0",
+    "eslint-plugin-import": "^2.2.0",
+    "express": "^4.14.0",
+    "flow-bin": "^0.38.0",
+    "flow-typed": "^2.0.0",
+    "jest": "^18.1.0",
+    "nodemon": "^1.11.0",
+    "pg": "^6.1.2",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.29.0",
+    "sqlite3": "^3.1.8"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "coverageDirectory": "coverage",
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
+  }
+}
