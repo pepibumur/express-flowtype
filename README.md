@@ -12,12 +12,13 @@ This is a minimal boilerplate to start writing API services in Node.js with all 
 - [x] Debugging through Chrome DevTools
 - [x] Sequelize ORM (promise-based - works great with `async/await`) 
 
-## What's more to cover?
+## What's more to cover/consider?
 - [ ] Logging library, maybe [debug](https://github.com/visionmedia/debug)? What do we expect from such logging utility?
 - [ ] Deployment process -  CircleCI, docker?
 - [ ] Config files - should these be handled by `.env` file or maybe we should store config for different enviroments in a single JSON file
 - [ ] Migrations
 - [ ] Boilerplate code generation through CLI?
+- [ ] Consider swapping out `babel-preset-env` with explicit plugin list 
 
 ## Scripts
 
