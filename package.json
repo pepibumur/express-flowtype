@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "babel-node src/server.js",
-    "watch": "nodemon src/server.js",
+    "start:watch": "nodemon src/server.js",
     "flow": "flow check",
     "flow:download": "flow-typed install",
     "lint": "eslint src/**/*",
