@@ -1,6 +1,9 @@
 # Express Flowtype stack
 This is a minimal boilerplate to start writing API services in Node.js with all the goodies of ES6+ and static typechecking.
 
+## How do I start?
+`yarn install` then `yarn run start:watch`
+
 ## What's in here?
 - [x] ES6+ features
  + Minimal transpilation required with `babel-preset-env` (we could drop babel, when native async arrives to Node.js)
@@ -25,7 +28,7 @@ This is a minimal boilerplate to start writing API services in Node.js with all 
 ## Scripts
 
 + `start` - starts the server
-+ `watch` - runs the server in watch mode (using nodemon), the code is linted before being runned.
++ `start:watch` - runs the server in watch mode (using nodemon), the code is linted before being runned.
 + `flow` - runs flow typechecker (however you probably won't have to use this as that's being covered by `eslint-plugin-flowtype` during linting process
 + `flow:download` - downloads Flowtype definitions for external packages
 + `test` - runs tests (through jest)
